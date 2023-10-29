@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-family: outfit;
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+}
+
+h5 {
+    font-family: outfit;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #158b15;
+}
+
+p {
+    font-family: outfit;
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    background-color: #1b1b1b;
+    width: 100%;
+    height: 1500px;
+}
+
+.btn {
+    color: aliceblue;
+    background-color: #158b15;
+    border-radius: 5px;
+    padding: 0.4rem 1rem;
+    margin: 2rem;
+    border: none;
+}
+
+.btn:hover {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-radius: 3cqmax;
+    border: none;
+}
+
+header {
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/inmoviliaria.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 900px;
+    border: solid #ffffff;
+    border-width: 0px 2px 0px 0px;
+}
+
+.parametros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cantidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.metro-cuadrado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.metros {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    height: 20px;
+}
+
+input {
+    width: 50%;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.propierties {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    padding-left: 4rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    margin-top: 1rem;
+    padding-left: 2rem;
+    gap: 1rem;
+}
+
+.card {
+    text-align: center;
+    background-color: #1b1b1b;
+    width: 200px;
+    border: 1px solid #158b15;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}

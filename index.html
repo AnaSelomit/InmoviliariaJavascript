@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <div class="portada"></div>
+        </header>
+        <main>
+            <nav>
+                <div class="parametros">
+                    <div class="cantidades">
+                        <h5>Cantidad de cuartos</h5>
+                        <input id="cuartos" type="number" />
+                    </div>
+                    <div class="metro-cuadrado">
+                        <h5 class="titulo">Metros cuadrados</h5>
+                        <div class="metros">
+                            <div class="box">
+                                <p>desde</p>
+                                <input id="desde" type="number" />
+                            </div>
+                            <div class="box">
+                                <p>hasta</p>
+                                <input id="hasta" type="number" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button id="btn" class="btn">Buscar</button>
+            </nav>
+            <section id="propierties" class="propierties">
+                <div class="box3">
+                    <h3>Propiedades</h3>
+                    <h5>Total : <span id="total"></span></h5>
+                </div>
+                <section id="gallery" class="gallery"></section>
+            </section>
+        </main>
+
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
